@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	  real dinheiroreais
+	  real cotacaodolar
+	  real precops5
+	  real dinheirodolares
+	  real dolaresfaltando
+	  real reaisfaltando
+	  real precolivro
+	  real quantidadelivros
+
+	  precops5 = 1300
+	  precolivro = 50
+
+	  escreva("digite quanto dinheiro você tem (em reais) atualmente: ")
+	  leia(dinheiroreais)
+
+	  escreva("digite a cotação atual do dolar: ")
+	  leia(cotacaodolar)
+
+	  dinheirodolares = dinheiroreais / cotacaodolar
+	  dolaresfaltando = precops5 - dinheirodolares
+	  reaisfaltando = dolaresfaltando * cotacaodolar
+	  quantidadelivros = dinheiroreais / precolivro
+
+	  escreva("a) Faltam ", dolaresfaltando, " dólares para comprar o PS5", "\n")
+   escreva("b) Faltam ", reaisfaltando, " reais para comprar o PS5", "\n")
+   escreva("c) Você poderia comprar ", quantidadelivros, " livros do Harry Potter com o valor que tem.")
+	}
+}
