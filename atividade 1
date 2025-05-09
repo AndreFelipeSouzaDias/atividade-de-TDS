@@ -3,7 +3,13 @@ programa
 
     funcao inicio()
     {
-    real total, valor1, valor2, valor3, valor4, valor5, valor6
+    real total
+    real valor1
+    real valor2
+    real valor3
+    real valor4
+    real valor5
+    real valor6
 
     valor1 = 26.90
     valor2 = 34.10
